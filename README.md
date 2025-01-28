@@ -20,14 +20,6 @@ To address these challenges, we propose the **Centralized Club Management System
 
 ---
 
-## Objectives  
-- Create a centralized platform for all clubs.  
-- Streamline communication between clubs and students.  
-- Improve visibility of club activities and announcements.  
-- Provide easy access to club memberships and participation details.  
-
----
-
 ## Proposed Solution  
 A **Club Management Section** integrated into the college website with features for:  
 - **Students**:  
@@ -49,39 +41,22 @@ A **Club Management Section** integrated into the college website with features 
 ---
 
 ## Technical Requirements  
-- **Frontend**: HTML, CSS, JavaScript.  
-- **Backend**: PHP.  
+- **Frontend**: HTML, CSS, JavaScript.    
 - **Database**: MySQL for storing user and club data.  
-- **Integration**: Email/SMS notifications or mobile app support (optional).  
+- **Hosting**: Github Pages
 
 ---
 
 ## Implementation Plan  
 1. Requirement Gathering and Analysis.  
 2. Design.  
-3. Development (Frontend and Backend).  
+3. Development.  
 4. Deployment and Feedback Collection.  
 5. Maintenance and Updates.  
 
 ---
+## Live Demo
 
-## Expected Benefits  
-- Improved communication between clubs and students.  
-- Enhanced student engagement in extracurricular activities.  
-- A more organized and accessible college website.  
-- Encouragement for students to participate in events.  
+Check out the live demo of the website https://aringhanshala.github.io/GEHU_Student_Clubs/.
 
----
-
-## Challenges and Mitigation Strategies  
-- **Data Accuracy**: Ensuring regular updates by club representatives.  
-  - *Mitigation*: Training and access control.  
-- **Technical Issues**: Downtime or bugs.  
-  - *Mitigation*: Regular maintenance and backups.  
-
----
-
-## Conclusion  
-The **Centralized Club Management System** aims to enhance student engagement and build a cohesive campus community. By offering an organized, interactive platform, it will streamline club activities and significantly improve the student experience.  
-
-This project aligns with our institution’s commitment to fostering holistic development. We hope this initiative sets a new benchmark for student activity management.  
+Feel free to explore the code and provide any feedback or suggestions!
