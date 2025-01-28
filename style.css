@@ -154,7 +154,7 @@
     color: black;
   }
 
-  .about{
+  .abou{
     color:#666;
     font-size: 1.35rem;
   }
@@ -187,13 +187,79 @@
     font-weight: 550;
   }
 
-.line{
-    background-color: #66cc33;
-    height: 0.1rem;
-    width: 90%;
-    border-radius: 1rem;
-    margin-left: 4rem;
+
+
+  .announcement-box {
+    width: 93%;
+    margin: 30px auto;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+.announcement-header {
+    background-color: #5b5b5b;
+    color: white;
+    padding: 12px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.announcement-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.announcement-list li {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 20px;
+    font-size: 16px;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.announcement-list li:last-child {
+    border-bottom: none;
+}
+
+.announcement-list li span {
+    font-weight: bold;
+}
+
+.announcement-list li p {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.announcement-list li a {
+    text-decoration: none;
+    color: #5b5b5b;
+    font-weight: bold;
+    padding: 6px 12px;
+    border: 1px solid #5b5b5b;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.announcement-list li a:hover {
+    background-color: #5b5b5b;
+    color: white;
+}
+
+.new {
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
 
 .heading{
     text-align: center;
