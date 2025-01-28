@@ -124,34 +124,68 @@
 
 /* Main */
 .menu{
-    width:100%;
-    height:29rem;
     display:flex;
     justify-content: space-around;
     margin-top: -0.25rem;
     background-color: white;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom:1.2rem;
 }
 
-.description{
-    width:49rem;
-    height:15rem;
-    font-size: 1.1rem;
-    margin-top: 1rem;
-    color: #8f8f8f;
-}
 
-.announcement1{
+.about-section {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  .about-header {
     text-align: center;
-    color:blue;
-}
+    margin-bottom: 20px;
+  }
+  .about-header h1 {
+    font-size: 2.5rem;
+    color: #ff5722;
+  }
+  .about-header p {
+    font-size: 2.2rem;
+    color: black;
+  }
 
-.announcement{
-    width:36rem;
-    height:27rem;
-    border: 1px solid black;
-    border-radius: 2rem;
-    margin-top: 1rem;
-}
+  .about{
+    color:#666;
+    font-size: 1.35rem;
+  }
+
+  .about-values {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+  }
+  .value-card {
+    background: #fffbf2;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  .value-card h3 {
+    font-size: 1.6rem;
+    color: #ff5722;
+    margin-bottom: 10px;
+  }
+  .value-card p {
+    color: #444;
+    font-size: 1.1rem;
+  }
+
+  h2{
+    font-size: 1.6rem;
+    font-weight: 550;
+  }
 
 .line{
     background-color: #66cc33;
